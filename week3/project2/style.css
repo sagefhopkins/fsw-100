@@ -1,4 +1,4 @@
-h3 {
+body > h3 {
   font-family: "Georgia"
   color: darkgreen;
 }
@@ -8,6 +8,9 @@ h2 {
 }
 
 .line-height {
+  line-height: 25px;
+}
+#para-1{
   line-height: 25px;
 }
 ul {
