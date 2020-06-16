@@ -1,0 +1,29 @@
+h3 {
+  font-family: "Georgia"
+  color: darkgreen;
+}
+h2 {
+  font-family: "Georgia";
+  color: darkgreen;
+}
+
+.line-height {
+  line-height: 25px;
+}
+ul {
+  line-height: 25px;
+}
+span {
+  text-transform: uppercase;
+}
+a {
+text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.img-class {
+  float: left;
+  padding: 10px;
+}
