@@ -1,0 +1,94 @@
+.navbar{
+  left:0px;
+  top: 0px;
+  width: 100%;
+  position: sticky;
+  height: 50px;
+  background-color: lightseagreen;
+  color:white;
+  text-align: center;
+  
+}
+header{
+  margin: auto;
+  width: 70%;
+  background-color: lightgrey;
+}
+main{
+  margin: auto ;
+  text-align: center;
+  width: 70%;
+  background-color: lightblue;
+}
+.navbar > a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 35.5px;
+}
+body{
+  margin-top: 75px;
+  margin-bottom: 100px;
+  background-color: lightslategray;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+h3{
+  font-size: 35px;
+}
+p{
+  font-size: 25px;
+}
+.image-left{
+  width: 215px;
+  float: left;
+  padding: 10px;
+}
+.animal-table{
+  border: 1px solid black;
+  font-size: 25px;
+}
+.animal-table > thead{
+  background-color: white;
+}
+.animal-table > tbody{
+  background-color: black;
+}
+.text-left{
+  position: relative;
+  float: left;
+  padding: 15px;
+}
+.text-right{
+  position: relative;
+  float: right;
+  padding: 15px;
+  overflow: hidden;
+}
+.side-by-side{
+  display: inline-block;
+  margin: auto;
+}
+.section-1{
+  width: 70%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+}
+button{
+  margin-bottom: 10px;
+}
+footer{
+  background-color: darkblue;
+  color: white;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  text-align: center;
+}
