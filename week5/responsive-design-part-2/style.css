@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.grid-container-1{
+    padding-top: 100px;
+    margin: auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 3px 3px;
+}
+.grid-1-item-1{
+    height: 100px;
+    background-color: red;
+    grid-column: 1/7;
+}
+.grid-1-item-2{
+    height: 100px;
+    background-color: blue;
+    grid-column: 7/13;
+}
+.grid-1-item-3{
+    height: 100px;
+    background-color: green;
+    grid-column: 1/5;
+}
+.grid-1-item-4{
+    height: 100px;
+    background-color: purple;
+    grid-column: 5/13;
+}
+.grid-1-item-5{
+    height: 100px;
+    background-color: yellow;
+    grid-column: 1/13;
+}
+.grid-container-2{
+    margin: auto;
+    padding-bottom: 100px;
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    display: grid;
+    grid-gap: 3px 3px;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar sidebar main main"
+    "sidebar sidebar main main"
+    "sidebar sidebar footer section"
+    "sidebar sidebar footer section";
+}
+.grid-2-item-1{
+    grid-area: header;
+    background-color: red;
+}
+.grid-2-item-2{
+    grid-area: sidebar;
+    background-color: blue;
+}
+.grid-2-item-3{
+    grid-area: main;
+    background-color: green;
+}
+.grid-2-item-4{
+    grid-area: footer;
+    background-color: purple;
+}
+.grid-2-item-5{
+    grid-area: section;
+    background-color: purple;
+}
+.grid-container-3{
+    color: darkturquoise;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    margin: auto;
+    padding-bottom: 100px;
+    grid-gap: 3px 3px;
+    grid-template-areas: 
+    "header"
+    "sidebar"
+    "content"
+    "content"
+    "side2"
+    "footer";
+}
+.grid-3-item-1{
+    grid-area: header;
+    background-color: red;
+}
+.grid-3-item-2{
+    grid-area: sidebar;
+    background-color: green;
+}
+.grid-3-item-3{
+    grid-area: content;
+    background-color: blue;
+}
+.grid-3-item-4{
+    grid-area: side2;
+    background-color: yellow;
+}
+.grid-3-item-5{
+    grid-area: footer;
+    background-color: purple;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 320px){
+.grid-container-3{
+    display: grid;
+    margin: auto;
+    padding-bottom: 100px;
+    grid-gap: 3px 3px;
+    grid-template-areas: 
+    "header"
+    "sidebar"
+    "content"
+    "content"
+    "side2"
+    "footer";
+}
+.grid-3-item-1{
+    grid-area: header;
+    background-color: red;
+}
+.grid-3-item-2{
+    grid-area: sidebar;
+    background-color: green;
+}
+.grid-3-item-3{
+    grid-area: content;
+    background-color: blue;
+}
+.grid-3-item-4{
+    grid-area: side2;
+    background-color: yellow;
+}
+.grid-3-item-5{
+    grid-area: footer;
+    background-color: purple;
+}
+}
+@media only screen and (min-width: 768px){
+    .grid-container-3{
+        display: grid;
+        margin: auto;
+        padding-bottom: 100px;
+        grid-gap: 3px 3px;
+        grid-template-areas: 
+        "header header header header"
+        "sidebar content content content"
+        "sidebar content content content"
+        "side2 side2 side2 side2"
+        "footer footer footer footer";
+    }
+    .grid-3-item-1{
+        grid-area: header;
+        background-color: red;
+    }
+    .grid-3-item-2{
+        grid-area: sidebar;
+        background-color: green;
+    }
+    .grid-3-item-3{
+        grid-area: content;
+        background-color: blue;
+    }
+    .grid-3-item-4{
+        grid-area: side2;
+        background-color: yellow;
+    }
+    .grid-3-item-5{
+        grid-area: footer;
+        background-color: purple;
+    }
+    }
+@media only screen and (min-width: 769px){
+    .grid-container-3{
+        display: grid;
+        margin: auto;
+        padding-bottom: 100px;
+        grid-gap: 3px 3px;
+        grid-template-areas: 
+        "header header header header"
+        "sidebar content content side2"
+        "sidebar content content side2"
+        "footer footer footer footer";
+    }
+    .grid-3-item-1{
+        grid-area: header;
+        background-color: red;
+    }
+    .grid-3-item-2{
+        grid-area: sidebar;
+        background-color: green;
+    }
+    .grid-3-item-3{
+        grid-area: content;
+        background-color: blue;
+    }
+    .grid-3-item-4{
+        grid-area: side2;
+        background-color: yellow;
+    }
+    .grid-3-item-5{
+        grid-area: footer;
+        background-color: purple;
+    }
+    }
